@@ -1,4 +1,5 @@
 import React from 'react';
+// throw new Error('Failed to fetch data for About page'); 
 
 const About = () => {
     return (
