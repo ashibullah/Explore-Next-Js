@@ -22,9 +22,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased p-10`}>
         <nav>
-          <ul className="flex gap-3">
+          <ul className="flex gap-6 items-center justify-center">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/about">About</Link></li>
+            <li><Link href="/blog">Blog</Link></li>
           </ul>
         </nav>
         <div className="mt-6">
