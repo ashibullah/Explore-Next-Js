@@ -9,6 +9,14 @@ const blogs = [{
     id:2,
     tittle: 'The Second blog contains about Machine Learning',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sint.',
+},{
+    id:3,
+    tittle: 'The 3rd blog contains about Machine Learning',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sint.',
+},{
+    id:4,
+    tittle: 'The 4th blog contains about Machine Learning',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sint.',
 }]
 const Blog = () => {
     return (
