@@ -8,13 +8,14 @@ export async function generateMetadata({ params }) {
 }
 
 const BlogPage = async ({ params }) => {
-    const { blogid } = await params;
-    
-    return (
-        <div>
-            <p>This is page for blog = {blogid}</p>
-        </div>
-    );
+  const { blogid } = await params;
+  console.log("PARAMS:", blogid);
+
+  return (
+    <div>
+      <p>This is page for blog = {blogid}</p>
+    </div>
+  );
 };
 
 export default BlogPage;
