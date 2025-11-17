@@ -18,6 +18,12 @@ const blogs = [{
     tittle: 'The 4th blog contains about Machine Learning',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sint.',
 }]
+
+export const metadata = {
+  title: "Blog Page - My Next Js App",
+  description: "Blog Page Next Js App",
+};
+
 const Blog = () => {
     return (
         <div>
