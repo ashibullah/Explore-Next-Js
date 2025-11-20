@@ -1,6 +1,17 @@
 import getSinglePost from '@/lib/getSinglePost';
 import React from 'react';
 
+ export const generateMetadata = async ({params})=>{
+    const {postId } = await params;
+    const result = await getSinglePost(postId);
+    
+    return{
+        title: result.title,
+        description: result.body,
+    }
+    
+}
+
 const  post = async ({params}) => {
     const {postId} = await params;
 

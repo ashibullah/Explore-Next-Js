@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default async function Posts() {
   const posts = await getAllPost();
-  console.log(posts);
+  // console.log(posts);
 
   return (
     <div>
